@@ -1,0 +1,20 @@
+{
+	"folders": [
+		{
+			"name": "Linia22",
+			"path": "../../../Linia22"
+		},
+		{
+			"name": "React Beginner Course",
+			"path": "../../../../Scrimba/React Beginner Course"
+		},
+		{
+			"name": "Work",
+			"path": "../../../../Work"
+		},
+		{
+			"path": "../.."
+		}
+	],
+	"settings": {}
+}
