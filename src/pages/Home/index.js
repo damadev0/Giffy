@@ -8,7 +8,7 @@ const GIFS_LIMIT = 5;
 
 function Home() {
   const [keyword, setKeyword] = useState("");
-  const [path, pushLocation] = useLocation();
+  const [pushLocation] = useLocation();
   const { loading, gifs } = useGifs({ keyword: "Rick", GIFS_LIMIT });
 
   const handleSubmit = (evt) => {
