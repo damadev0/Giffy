@@ -3,7 +3,7 @@
 }
 
 h1 {
-  color: var(--primary-color)
+  color: white;
 }
 
 a {
@@ -68,6 +68,5 @@ a {
 
 .App-options a:hover {
   /* font-size: 1rem; */
-  color : var(--primary-color);
+  color: var(--primary-color);
 }
-
