@@ -2,6 +2,7 @@ import { React, useState } from "react";
 import { useLocation } from "wouter";
 import { useGifs } from "../../hooks/useGifs";
 import ListOfGifs from "../../components/ListOfGifs/ListOfGifs";
+import Loader from "../../components/Loader/Loader";
 
 const GIFS_LIMIT = 5;
 
@@ -32,7 +33,7 @@ function Home() {
         />
       </form>
       <h4>Examples</h4>
-      {loading ? <i>Loading...</i> : <ListOfGifs gifs={gifs} />}
+      {loading ? <Loader /> : <ListOfGifs gifs={gifs} />}
     </>
   );
 }

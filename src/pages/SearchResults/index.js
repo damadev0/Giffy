@@ -1,5 +1,6 @@
 import React from "react";
 import ListOfGifs from "../../components/ListOfGifs/ListOfGifs";
+import Loader from "../../components/Loader/Loader";
 import { useGifs } from "../../hooks/useGifs";
 import "./index.css";
 
@@ -13,7 +14,8 @@ function SearchResults({ params }) {
     <div className="Search">
       <h1>Results</h1>
       {loading ? (
-        <i>Loading...</i>
+        //<i>Loading...</i>
+        <Loader />
       ) : gifs.length > 0 ? (
         <ListOfGifs gifs={gifs} />
       ) : (
